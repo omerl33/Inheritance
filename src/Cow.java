@@ -12,4 +12,8 @@ public class Cow extends Mammal{
         this.countHamlatot = countHamlatot;
     }
 
+    public String makeSound(){
+        return super.makeSound() + " Mooo";
+    }
+
 }

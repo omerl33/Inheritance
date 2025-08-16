@@ -25,4 +25,8 @@ public class Mammal extends Animal{
 //    public String toString(){
 //        return "Mammal [ age " + age + ", name = " + name + "kalInMilk = " + kalInMilk + "countPrag = " + countPrag + " ] ";
 //    }
+
+    public String makeSound(){
+        return "pshhhh";
+    }
 }
